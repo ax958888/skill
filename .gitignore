@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+skill-analyzer/skill-analyzer
+skill-builder/skill-builder
+
+# Go
+*.test
+*.out
+go.sum
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Test data
+/tmp/
+*.test-data

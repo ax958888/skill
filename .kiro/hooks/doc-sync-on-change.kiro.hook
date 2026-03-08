@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Documentation Sync",
+  "description": "Monitors source files and automatically updates README or docs folder when changes are detected",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.md",
+      ".kiro/specs/**/*.md",
+      ".kiro/steering/*.md",
+      "skill重塑.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A source file has been modified. Review the changes and update the relevant documentation in README.md or the /docs folder (if it exists) to reflect these changes. Ensure documentation stays synchronized with the implementation."
+  }
+}

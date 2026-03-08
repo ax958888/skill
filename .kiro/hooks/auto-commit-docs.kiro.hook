@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "自動提交文檔到 GitHub",
+  "description": "當創建或編輯 .md 文件時，自動提交並推送到 GitHub repository",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.md"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "git add . && git commit -m \"docs: update markdown files\" && git push"
+  }
+}

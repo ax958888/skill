@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "顯示任務進度",
+  "description": "當用戶提交包含「任務」或「進度」的訊息時，自動讀取並顯示 task-tracker.md 的內容",
+  "version": "1",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "用戶提到了任務或進度。請讀取 task-tracker.md 文件並顯示當前的任務狀態和進度信息，幫助恢復工作上下文。"
+  }
+}
