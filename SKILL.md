@@ -1,6 +1,6 @@
 ---
 name: openclaw-helm
-description: Helm-based deployment and management of OpenClaw in Kubernetes environments. Use when: (1) Deploying OpenClaw to Kubernetes clusters, (2) Managing OpenClaw Helm chart installations, (3) Configuring OpenClaw for production use, (4) Setting up backup and restore procedures, (5) Upgrading OpenClaw deployments, or (6) Troubleshooting OpenClaw in Kubernetes.
+description: "Helm-based deployment and management of OpenClaw in Kubernetes environments. Use when: (1) Deploying OpenClaw to Kubernetes clusters, (2) Managing OpenClaw Helm chart installations, (3) Configuring OpenClaw for production use, (4) Setting up backup and restore procedures, (5) Upgrading OpenClaw deployments, or (6) Troubleshooting OpenClaw in Kubernetes."
 ---
 
 # OpenClaw Helm Deployment
