@@ -195,10 +195,7 @@ MIT License
 ## 貢獻
 
 歡迎提交 Pull Requests 和 Issues。
-=======
-# skill
-用Rust/go 語言重塑skill
->>>>>>> af9e4e47d5b46c04d21d04a9bd1aeaf697ad0d1dnary Arsenal Generator (私人兵工廠建構者)
+nary Arsenal Generator (私人兵工廠建構者)
 
 自動化技能轉換和部署管道，將 GitHub 儲存庫中的腳本或工具（Python/JS/TS）轉換為零依賴、高效能的單一執行檔。
 
